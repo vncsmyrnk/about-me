@@ -12,11 +12,11 @@ local view_json = function(file_path)
   return { json = json_content }
 end
 
-app:get("/", function()
+app:get("/api", function()
   return view_json("home")
 end)
 
-app:get("/:route", function(self)
+app:get("/api/:route", function(self)
   return view_json(self.params.route)
 end)
 

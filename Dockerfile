@@ -15,5 +15,5 @@ export PATH="/usr/local/lib/luarocks/rocks-5.1:$PATH"
 EOF
 COPY . /app
 WORKDIR /app
-EXPOSE 8080
+EXPOSE 80
 CMD ["lapis", "server", "production"]

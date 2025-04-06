@@ -1,5 +1,7 @@
 !community/**
 !views/**
+!docs/**
+docs/swagger
 logs/
 nginx.conf.compiled
 _temp/

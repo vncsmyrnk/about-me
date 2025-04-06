@@ -1,0 +1,123 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "This is the documentation for the [about-me API](https://github.com/vncsmyrnk/about-me)",
+    "version": "1.0.7",
+    "title": "About Me API",
+    "termsOfService": "http://swagger.io/terms/",
+    "contact": {
+      "email": "vncsmyrnk@gmail.com"
+    },
+    "license": {
+      "name": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  },
+  "host": "about-vncsmyrnk.koyeb.app",
+  "basePath": "/api",
+  "tags": [
+    {
+      "name": "home",
+      "description": "Basic identification"
+    }
+  ],
+  "schemes": [
+    "https",
+    "http"
+  ],
+  "paths": {
+    "": {
+      "get": {
+        "tags": [
+          "home"
+        ],
+        "summary": "Basic identification",
+        "description": "",
+        "operationId": "",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "$ref": "#/definitions/Home"
+            }
+          }
+        },
+        "security": []
+      }
+    },
+    "/about-me": {
+      "get": {
+        "tags": [
+          "about-me"
+        ],
+        "summary": "Serves general information about me",
+        "description": "Return about me data",
+        "operationId": "about-me",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "$ref": "#/definitions/AboutMe"
+            }
+          }
+        },
+        "security": []
+      }
+    }
+  },
+  "securityDefinitions": {},
+  "definitions": {
+    "Home": {
+      "type": "object",
+      "properties": {
+        "into": {
+          "type": "string"
+        },
+        "_links": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "AboutMe": {
+      "type": "object",
+      "properties": {
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "name": {
+          "type": "string"
+        },
+        "cv_url": {
+          "type": "string"
+        },
+        "job": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      },
+      "xml": {
+        "name": "Category"
+      }
+    }
+  },
+  "externalDocs": {
+    "description": "Find out more about Swagger",
+    "url": "http://swagger.io"
+  }
+}
