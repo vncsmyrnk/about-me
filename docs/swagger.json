@@ -56,7 +56,7 @@
         ],
         "summary": "Serves general information about me",
         "description": "Return about me data",
-        "operationId": "about-me",
+        "operationId": "",
         "produces": [
           "application/json"
         ],
