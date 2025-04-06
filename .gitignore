@@ -1,0 +1,5 @@
+!community/**
+!views/**
+logs/
+nginx.conf.compiled
+_temp/
