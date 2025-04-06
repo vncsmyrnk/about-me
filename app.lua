@@ -13,7 +13,7 @@ local view_json = function(file_path)
 end
 
 app:get("/", function()
-  return view_json("home.json")
+  return view_json("home")
 end)
 
 app:get("/:route", function(self)

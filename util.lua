@@ -3,8 +3,7 @@ local cjson = require("cjson")
 local util = {}
 
 function util:read_json(file_path)
-  print(string.format("./views/%s", file_path))
-  local file = io.open(string.format("./views/%s", file_path), "r")
+  local file = io.open(string.format("./views/%s.json", file_path), "r")
   if not file then
     return nil
   end
