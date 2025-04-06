@@ -1,0 +1,142 @@
+[
+  {
+    "name": "certificates.technical.cefet",
+    "description": "certificates.types.technical",
+    "url": "https://www.cefetmg.br",
+    "tags": [
+      "computer networks",
+      "security",
+      "programming",
+      "computer architecture",
+      "oop",
+      "algorithms"
+    ]
+  },
+  {
+    "name": "certificates.graduation.puc",
+    "description": "certificates.types.graduation",
+    "url": "https://www.pucminas.br/destaques/Paginas/default.aspx",
+    "tags": [
+      "system analysis",
+      "software engineering",
+      "software projects",
+      "algorithms",
+      "buisiness inteligence",
+      "data science"
+    ]
+  },
+  {
+    "name": "IBM DevOps and Software Engineering",
+    "description": "certificates.types.course",
+    "url": "https://www.coursera.org/account/accomplishments/specialization/66L5N4AT8M8M",
+    "tags": [
+      "software engineering",
+      "devops",
+      "ci/cd",
+      "microservices",
+      "git",
+      "docker",
+      "testing"
+    ]
+  },
+  {
+    "name": "CloudAcademy DevSecOps, DevOps and Software Engineering",
+    "description": "certificates.types.course",
+    "url": "https://certificates.cloudacademy.com/aad6d2adc60c57b122cbe716135f4c39815347c8.pdf",
+    "tags": [
+      "software engineering",
+      "devsecops",
+      "kubernetes",
+      "docker",
+      "sonarqube"
+    ]
+  },
+  {
+    "name": "IBM Application Development using Microservices and Serverless",
+    "description": "certificates.types.course",
+    "url": "https://www.coursera.org/account/accomplishments/verify/UAB7NFB4VKEJ",
+    "tags": [
+      "software engineering",
+      "microservices",
+      "docker",
+      "api",
+      "aws lambda",
+      "testing"
+    ]
+  },
+  {
+    "name": "Cloud Academy Building and Deploying a Cloud Native Application",
+    "description": "certificates.types.course",
+    "url": "https://certificates.cloudacademy.com/0b1276b17c1933574ccec3a3cf1fefb3021796a2.pdf",
+    "tags": [
+      "software engineering",
+      "microservices",
+      "devops",
+      "docker",
+      "linux",
+      "kubernetes"
+    ]
+  },
+  {
+    "name": "IBM Continuous Integration and Continuous Delivery (CI/CD)",
+    "description": "certificates.types.course",
+    "url": "https://www.coursera.org/account/accomplishments/verify/SHL6AZNPP6JM",
+    "tags": [
+      "software engineering",
+      "ci/cd",
+      "docker",
+      "terraform",
+      "jenkins",
+      "GitHub Actions",
+      "Artifactory"
+    ]
+  },
+  {
+    "name": "Mathematics for Machine Learning and Data Science",
+    "description": "certificates.types.course",
+    "url": "https://www.coursera.org/account/accomplishments/specialization/4UJ8AS7XCHJV",
+    "tags": [
+      "machine learning",
+      "calculus",
+      "data science",
+      "statistics",
+      "probabilities",
+      "linear algebra"
+    ]
+  },
+  {
+    "name": "IBM Application Security for Developers and DevOps Professionals",
+    "description": "certificates.types.course",
+    "url": "https://www.coursera.org/account/accomplishments/verify/S22XF29249EC",
+    "tags": [
+      "software engineering",
+      "owasp",
+      "grafana",
+      "monitoring"
+    ]
+  },
+  {
+    "name": "Cloud Academy Operations with AWS - Level 3",
+    "description": "certificates.types.course",
+    "url": "https://certificates.cloudacademy.com/28395c94b90526d5a05d7de61f5dc42509da5a7e.pdf",
+    "tags": [
+      "software engineering",
+      "aws",
+      "cloud",
+      "aws codepipeline",
+      "aws codebuild"
+    ]
+  },
+  {
+    "name": "IBM Monitoring and Observability for Development and DevOps",
+    "description": "certificates.types.course",
+    "url": "https://www.coursera.org/account/accomplishments/verify/SVKX7AQPSXE2",
+    "tags": [
+      "software engineering",
+      "devops",
+      "grafana",
+      "monitoring",
+      "prometheus"
+    ]
+  }
+]

@@ -16,8 +16,16 @@ app:get("/api", function()
   return view_json("home")
 end)
 
-app:get("/api/:route", function(self)
-  return view_json(self.params.route)
+app:get("/api/projects", function()
+  return view_json("projects")
+end)
+
+app:get("/api/certifications", function()
+  return view_json("certifications")
+end)
+
+app:get("/api/contacts", function()
+  return view_json("contacts")
 end)
 
 return app

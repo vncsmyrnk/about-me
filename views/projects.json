@@ -1,0 +1,110 @@
+[
+  {
+    "name": "projects.fakeapi.title",
+    "description": "projects.fakeapi.description",
+    "language": "go",
+    "repo_url": "https://github.com/vncsmyrnk/fakeapi",
+    "tags": [
+      "cli",
+      "mock",
+      "go",
+      "tests",
+      "codecov",
+      "ci/cd",
+      "rest api"
+    ]
+  },
+  {
+    "name": "projects.dotfiles.title",
+    "description": "projects.dotfiles.description",
+    "language": "bash",
+    "repo_url": "https://github.com/vncsmyrnk/dotfiles",
+    "tags": [
+      "shell",
+      "zsh",
+      "dotfiles",
+      "linux"
+    ]
+  },
+  {
+    "name": "projects.aoc.title",
+    "description": "projects.aoc.description",
+    "language": "zig",
+    "repo_url": "https://github.com/vncsmyrnk/aoc",
+    "tags": [
+      "zig",
+      "perl",
+      "competitive-programming",
+      "shell",
+      "awk"
+    ]
+  },
+  {
+    "name": "projects.restaurant.title",
+    "description": "projects.restaurant.description",
+    "language": "python",
+    "repo_url": "https://github.com/Sistema-de-integracao-em-restaurante/api",
+    "tags": [
+      "rest api",
+      "python",
+      "flask",
+      "sqlalchemy",
+      "docker",
+      "ci/cd",
+      "github actions"
+    ]
+  },
+  {
+    "name": "projects.todayiwill.title",
+    "description": "projects.todayiwill.description",
+    "language": "rust",
+    "repo_url": "https://github.com/vncsmyrnk/todayiwill",
+    "tags": [
+      "cli",
+      "rust",
+      "clap",
+      "tests",
+      "codecov",
+      "ci/cd",
+      "github actions"
+    ]
+  },
+  {
+    "name": "projects.work-time-calculator.title",
+    "description": "projects.work-time-calculator.description",
+    "language": "java",
+    "tags": [
+      "rest api",
+      "java",
+      "spring boot",
+      "docker",
+      "ci/cd",
+      "github actions"
+    ]
+  },
+  {
+    "name": "projects.sentiment-analysis.title",
+    "description": "projects.sentiment-analysis.description",
+    "tags": [
+      "nlp",
+      "ai",
+      "rest api",
+      "python",
+      "tensorflow",
+      "ci/cd",
+      "github actions"
+    ]
+  },
+  {
+    "name": "projects.digital-donations.title",
+    "description": "projects.digital-donations.description",
+    "language": "javascript",
+    "repo_url": "https://github.com/doardigital/api",
+    "tags": [
+      "rest api",
+      "node.js",
+      "koa.js",
+      "docker"
+    ]
+  }
+]

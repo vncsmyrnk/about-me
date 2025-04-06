@@ -1,7 +1,21 @@
 {
-  "intro": "I am Vinicius Mayrink and I am a backend developer specialized in crafting robust APIs using an arsenal of tools including Python, Go, and Node.js. With a deep understanding of backend principles and concepts, I am proficient in implementing SOLID principles, RESTful architecture, and clean code practices to engineer scalable and efficient solutions.",
+  "name": "Vinicius Mayrink",
+  "intro": "I am a backend developer specialized in crafting robust APIs using an arsenal of tools including Python, Go, and Node.js. With a deep understanding of backend principles and concepts, I am proficient in implementing SOLID principles, RESTful architecture, and clean code practices to engineer scalable and efficient solutions.",
+  "job": "Software/Back-end Engineer",
+  "skills": [
+    "docker",
+    "api",
+    "rest",
+    "golang",
+    "python",
+    "integrations",
+    "backend",
+    "ai/ml",
+    "ci/cd",
+    "git",
+    "pipelines"
+  ],
   "_links": [
-    "/about-me",
     "/projects",
     "/methodologies",
     "/contacts"
