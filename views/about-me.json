@@ -1,0 +1,19 @@
+{
+  "name": "Vinicius Mayrink",
+  "job": "Software/Back-end Engineer",
+  "tags": [
+    "docker",
+    "api",
+    "rest",
+    "golang",
+    "python",
+    "integrations",
+    "backend",
+    "ai/ml",
+    "ci/cd",
+    "git",
+    "pipelines"
+  ],
+  "cv_url": "https://vncsmyrnk.github.io/portfolio/CV_ViniciusMayrink_en.pdf",
+  "description": "APIs and Web APIs are indispensable for digital integrations, serving as the linchpin that enables seamless communication and collaboration between disparate systems and services. These APIs provide standardized interfaces that allow different software applications to interact, share data, and execute functions across the web.\n\nMy passion is creating these REST APIs with tools such as Python, Node.js, Java, and PHP. This is the area in which I specialize and continuously develop myself every day. I believe that DevOps, DevSecOps, CI/CD and Agile Frameworks practices are essential for applications to be developed collaboratively and in an organized manner, significantly reducing potential problems and bugs even before they reach production environments.\n\nAs seen on this page, I also have experience in creating web interfaces with JavaScript frameworks. Full-stack skills are important for developing comprehensive and suitable applications."
+}
