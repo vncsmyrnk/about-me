@@ -32,8 +32,7 @@ jobs:
             ghcr.io/vncsmyrnk/about-me:latest
 
   deploy-to-koyeb:
-    if: false
-    # if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     environment:
       name: koyeb
