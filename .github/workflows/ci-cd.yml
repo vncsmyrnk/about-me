@@ -1,0 +1,52 @@
+name: CI/CD workflow
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+permissions:
+  packages: write
+
+jobs:
+  build-docker-image:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Log in to the Container registry
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build and push
+        uses: docker/build-push-action@v5
+        with:
+          push: true
+          tags: |
+            ghcr.io/vncsmyrnk/about-me:latest
+
+  deploy-to-koyeb:
+    if: false
+    # if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment:
+      name: koyeb
+      url: ${{ vars.URL }}
+    needs: build-docker-image
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - uses: extractions/setup-just@v1
+
+      - name: Deploy
+        env:
+          TOKEN: ${{ secrets.KOYEB_TOKEN }}
+          SERVICEID: ${{ secrets.KOYEB_SERVICEID }}
+        run: KOYEB_TOKEN=$TOKEN KOYEB_SERVICEID=$SERVICEID just deploy-to-koyeb
